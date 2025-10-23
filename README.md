@@ -11,6 +11,18 @@ This comprehensive analysis explores the relationship between Bitcoin market sen
 - **Win Rate Insight**: Extreme Greed has highest win rate (47%) but lower total PnL
 - **Market Efficiency**: 75.4% of trading days are profitable
 
+## 📈 Analysis Visualizations
+
+### Comprehensive Sentiment Analysis
+![Bitcoin Sentiment Analysis](bitcoin_sentiment_analysis.png)
+
+*This visualization shows the complete relationship between Bitcoin market sentiment and trader performance, including sentiment trends, PnL patterns, correlation analysis, and performance by sentiment category.*
+
+### Advanced Trading Strategies Comparison
+![Advanced Trading Strategies](advanced_trading_strategies.png)
+
+*This chart compares the performance of three implemented trading strategies: Contrarian, Momentum, and Risk Parity, showing portfolio values, position sizing, and risk-return profiles.*
+
 ##  Quick Start
 
 ### 1. Run Main Analysis
