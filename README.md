@@ -1,17 +1,17 @@
 # Bitcoin Market Sentiment & Trader Performance Analysis
 
-## 🎯 Project Overview
+##  Project Overview
 
 This comprehensive analysis explores the relationship between Bitcoin market sentiment (Fear/Greed Index) and trader performance data from Hyperliquid to uncover patterns and deliver actionable insights for smarter trading strategies in the Web3 space.
 
-## 📊 Key Findings
+##  Key Findings
 
 - **Contrarian Opportunity**: Extreme Fear periods show highest average PnL ($49,496)
 - **Volume Correlation**: Higher sentiment correlates with lower trading volume (-0.264)
 - **Win Rate Insight**: Extreme Greed has highest win rate (47%) but lower total PnL
 - **Market Efficiency**: 75.4% of trading days are profitable
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Run Main Analysis
 ```bash
@@ -28,30 +28,30 @@ python advanced_trading_strategies.py
 - **Strategy Comparison**: `advanced_trading_strategies.png`
 - **Detailed Report**: `Bitcoin_Sentiment_Trading_Analysis_Report.md`
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 primetradetask/
-├── 📊 Data Files
+├──  Data Files
 │   ├── fear_greed_index.csv          # Bitcoin Fear/Greed Index (2018-2025)
 │   ├── historical_data.csv           # Hyperliquid trading data (211K+ trades)
 │   └── merged_data.csv               # Processed analysis dataset
 │
-├── 🐍 Analysis Scripts
+├──  Analysis Scripts
 │   ├── bitcoin_sentiment_analysis.py # Main analysis pipeline
 │   └── advanced_trading_strategies.py # Strategy implementation & backtesting
 │
-├── 📈 Visualizations
+├──  Visualizations
 │   ├── bitcoin_sentiment_analysis.png # Comprehensive sentiment charts
 │   └── advanced_trading_strategies.png # Strategy performance comparison
 │
-└── 📚 Documentation
+└──  Documentation
     ├── Bitcoin_Sentiment_Trading_Analysis_Report.md # Detailed analysis report
     ├── ANALYSIS_SUMMARY.md           # Executive summary
     └── README.md                     # This file
 ```
 
-## 🎯 Trading Strategies Implemented
+##  Trading Strategies Implemented
 
 ### 1. **Contrarian Strategy** (Best for High Returns)
 - **Entry**: Sentiment ≤ 30 (Fear territory)
@@ -69,7 +69,7 @@ primetradetask/
 - **Performance**: Highest Sharpe Ratio (4.95)
 - **Risk Management**: Adaptive based on market conditions
 
-## 📊 Key Metrics
+##  Key Metrics
 
 | Metric | Value |
 |--------|-------|
@@ -79,7 +79,7 @@ primetradetask/
 | **Average Daily PnL** | $21,408 |
 | **Best Strategy Sharpe Ratio** | 4.95 (Risk Parity) |
 
-## 🔍 Sentiment-Performance Correlation
+##  Sentiment-Performance Correlation
 
 | Sentiment Category | Avg Daily PnL | Win Rate | Days | Strategy |
 |-------------------|---------------|----------|------|----------|
@@ -89,7 +89,7 @@ primetradetask/
 | **Greed** | $11,150 | 35.0% | 208 | 📉 **Sell** |
 | **Extreme Greed** | $26,057 | 47.0% | 93 | ⚠️ **Strong Sell** |
 
-## 💡 Key Insights
+##  Key Insights
 
 ### **Contrarian Opportunities**
 - **Fear periods** offer the highest profit potential
@@ -106,7 +106,7 @@ primetradetask/
 - **Fear periods** attract more traders (6.92-10.55 avg)
 - **Greed periods** show reduced participation (3.44-4.68 avg)
 
-## 🛠️ Implementation Guide
+##  Implementation Guide
 
 ### **Daily Trading Routine**
 1. **Morning**: Check sentiment score
@@ -120,7 +120,7 @@ primetradetask/
 - Win rates by sentiment category
 - Risk-adjusted returns
 
-## 📈 Current Market Signal
+##  Current Market Signal
 
 **Latest Analysis Results:**
 - **Sentiment Score**: 53.0 (Neutral)
@@ -128,20 +128,20 @@ primetradetask/
 - **Position Size**: 40-60%
 - **Risk Management**: 10% stop-loss, 30% take-profit
 
-## 🔧 Technical Requirements
+##  Technical Requirements
 
 - **Python 3.7+**
 - **Pandas, NumPy, Matplotlib, Seaborn**
 - **Jupyter Notebook** (optional for interactive analysis)
 
-## 📚 Documentation
+##  Documentation
 
 - **[Detailed Analysis Report](Bitcoin_Sentiment_Trading_Analysis_Report.md)** - Comprehensive findings and recommendations
 - **[Analysis Summary](ANALYSIS_SUMMARY.md)** - Executive summary and key insights
 - **[Main Analysis Script](bitcoin_sentiment_analysis.py)** - Core analysis pipeline
 - **[Advanced Strategies](advanced_trading_strategies.py)** - Strategy implementation and backtesting
 
-## 🎉 Results
+##  Results
 
 This analysis successfully demonstrates the power of combining market sentiment data with trader performance metrics to develop sophisticated trading strategies. The key insight that **Extreme Fear periods offer the highest profit potential** while **Greed periods show the lowest performance** provides a clear contrarian framework for Web3 trading.
 
