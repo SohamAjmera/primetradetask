@@ -38,10 +38,10 @@ This comprehensive analysis explores the relationship between Bitcoin market sen
 
 | Sentiment Category | Avg Daily PnL | Win Rate | Days | Key Insight |
 |-------------------|---------------|----------|------|-------------|
-| **Extreme Fear**  | $49,496      | 34.0%    | 22   | 🎯 **Best Performance** |
+| **Extreme Fear**  | $49,496      | 34.0%    | 22   |  **Best Performance** |
 | **Fear**          | $36,519      | 33.0%    | 87   | Strong contrarian opportunity |
 | **Neutral**       | $18,059      | 33.0%    | 69   | Baseline performance |
-| **Greed**         | $11,150      | 35.0%    | 208  | ⚠️ Lowest performance |
+| **Greed**         | $11,150      | 35.0%    | 208  |  Lowest performance |
 | **Extreme Greed** | $26,057      | 47.0%    | 93   | High win rate, moderate PnL |
 
 ### 2. Correlation Analysis
@@ -77,12 +77,12 @@ This comprehensive analysis explores the relationship between Bitcoin market sen
 
 ### 1. Contrarian Strategy Framework
 
-#### 🎯 **Optimal Entry Points: Fear Periods**
+####  **Optimal Entry Points: Fear Periods**
 - **Extreme Fear**: Maximum profit potential ($49,496 avg PnL)
 - **Fear**: Strong secondary opportunity ($36,519 avg PnL)
 - **Strategy**: Accumulate positions during market panic
 
-#### ⚠️ **Risk Management: Greed Periods**
+####  **Risk Management: Greed Periods**
 - **Greed**: Lowest performance ($11,150 avg PnL)
 - **Strategy**: Reduce position sizes, take profits
 - **Focus**: Capital preservation over growth
